@@ -47,7 +47,7 @@ timeout /t 3
 echo As-salamu alaykum!!
 echo detecting presence of repo, git cloning if not detected...
 echo ---------------------------------------------------------------
-if exist tools\ goto Menu1
+if exist examples\ goto Menu1
 git clone https://github.com/BenevolenceMessiah/distributed-llama.git
 cd distributed-llama
 git pull
